@@ -5,6 +5,13 @@ import rasim2 from "./bulb 2.png"
 
 import './App.css';                    // fayillar chaqirish uchun 
 
+import data1 from './json.js'
+import './javackript.js'
+
+
+
+
+
 function App() {
   return (
 
@@ -84,7 +91,7 @@ function App() {
 
 
 
-      <div className="react_3">
+      <div className="react_3" id="react_3">
 
         <div className="react_3_div1">
 
@@ -104,7 +111,7 @@ function App() {
 
         </div>
 
-        <div className="react_3_div2">
+        {/* <div className="react_3_div2">
 
           <div className="react_3_div2_div">
             <div className="react_3_div2_1">
@@ -118,100 +125,27 @@ function App() {
             </div>
 
           </div>
-          {/* 2 */}
+         
           <div className="react_3_div2_div2">
             <i class="react_3_div2_div2_icons fa-solid fa-comment"></i>
             <p id="p_id">2</p>
           </div>
 
 
-        </div>
+        </div> */}
 
 
 
-        <div className="react_3_div2">
-
-          <div className="react_3_div2_div">
-            <div className="react_3_div2_1">
-              <i class="react_3_div2_1_icons fa-solid fa-angle-up"></i>
-              <p>99</p>
-            </div>
-            <div className="react_3_div2_div_2">
-              <h1>Add a dark theme option</h1>
-              <p>It would help people with light sensitivities and who prefer dark mode.</p>
-              <div className="react_3_div2_div_2_div">Feature</div>
-            </div>
-
-          </div>
-
-          <div className="react_3_div2_div2">
-            <i class="react_3_div2_div2_icons fa-solid fa-comment"></i>
-            <p id="p_id">4</p>
-          </div>
+        
+       
 
 
-        </div>
-        {/* 3 */}
-        <div className="react_3_div2">
-
-          <div className="react_3_div2_div">
-            <div className="react_3_div2_1">
-              <i class="react_3_div2_1_icons fa-solid fa-angle-up"></i>
-              <p>65</p>
-            </div>
-            <div className="react_3_div2_div_2">
-              <h1>Q&A within the challenge hubs</h1>
-              <p>Challenge-specific Q&A would make for easy reference.</p>
-              <div className="react_3_div2_div_2_div">Feature</div>
-            </div>
-
-          </div>
+   
 
 
 
 
-          <div className="react_3_div2_div2">
-            <i class="react_3_div2_div2_icons fa-solid fa-comment"></i>
-            <p id="p_id">1</p>
-          </div>
-
-
-        </div>
-
-
-
-
-        {/* 4 */}
-        <div className="react_3_div2">
-
-          <div className="react_3_div2_div">
-            <div className="react_3_div2_1">
-              <i class="react_3_div2_1_icons fa-solid fa-angle-up"></i>
-              <p>51</p>
-            </div>
-            <div className="react_3_div2_div_2">
-              <h1>Allow image/video upload to feedback</h1>
-              <p>Images and screencasts can enhance comments on solutions.</p>
-              <div className="react_3_div2_div_2_div">Enhancement</div>
-            </div>
-
-          </div>
-
-          <div className="react_3_div2_div2">
-            <i class="react_3_div2_div2_icons fa-solid fa-comment"></i>
-            <p id="p_id">2</p>
-          </div>
-
-
-        </div>
-
-
-
-
-
-        {/* 5 */}
-
-        <div className="react_3_div2">
+        {/* <div className="react_3_div2">
 
           <div className="react_3_div2_div">
             <div className="react_3_div2_1">
@@ -234,7 +168,7 @@ function App() {
 
         </div>
 
-        {/* 6 */}
+       
 
 
         <div className="react_3_div2">
@@ -258,7 +192,7 @@ function App() {
           </div>
 
 
-        </div>
+        </div> */}
 
 
 
@@ -312,6 +246,9 @@ function App() {
 
   );
 }
+
+
+
 
 export default App;
 

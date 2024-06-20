@@ -99,7 +99,50 @@ let json1 = [
         "tugma": "bug",
         "comment": 0,
     },
- 
+
 
 ]
-console.log(json1);
+// console.log(json1);
+
+// div manzil
+let react_3 = document.querySelector("#react_3")
+
+console.log(react_3);
+
+function name1(api) {
+    for (let index = 0; index < api.length; index++) {
+        let div1 = document.createElement("div");
+        div1.className = "react_3_div2"
+
+        div1.innerHTML = `
+      <div className="react_3_div2_div">
+            <div className="react_3_div2_1">
+              <i class="react_3_div2_1_icons fa-solid fa-angle-up"></i>
+              <p>${api[index].son}</p>
+            </div>
+            <div className="react_3_div2_div_2">
+              <h1>${api[index].nom1}</h1>
+              <p>${api[index].nom2}</p>
+              <div className="react_3_div2_div_2_div">${api[index].tugma}</div>
+            </div>
+
+          </div>
+         
+          <div className="react_3_div2_div2">
+            <i class="react_3_div2_div2_icons fa-solid fa-comment"></i>
+            <p id="p_id">${api[index].comment}</p>
+          </div>
+      
+      `
+
+
+        // react_3.appendChild(div1)
+
+
+
+
+
+    }
+
+} name1(json1)
+
